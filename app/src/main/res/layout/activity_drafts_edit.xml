@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:text="发货人信息"
+                android:textColor="@color/actionbar_bg" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:divider="@drawable/ic_divider"
+                app:showDividers="middle|beginning|end">
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="发货人姓名：" />
+
+                    <EditText
+                        android:id="@+id/order_etPosterName"
+                        style="@style/order_edittext"
+                        android:hint="请输入姓名" />
+
+                    <ImageView
+                        android:id="@+id/order_btnAddPoster"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_select" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="手机号：" />
+
+                    <EditText
+                        android:id="@+id/order_etPosterPhone"
+                        style="@style/order_edittext"
+                        android:hint="请输入手机号"
+                        android:inputType="number" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="发货地区：" />
+
+                    <TextView
+                        android:id="@+id/order_tvPosterAreaName"
+                        style="@style/order_edittext"
+                        android:hint="请选择发货地区"
+                        android:onClick="handleClick" />
+
+                    <ImageView
+                        android:id="@+id/order_btnAddPosterArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_select" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="详细地址：" />
+
+                    <EditText
+                        android:id="@+id/order_etPosterAddress"
+                        style="@style/order_edittext"
+                        android:hint="请填写所在街道及详细地址" />
+
+                    <ImageView
+                        android:id="@+id/order_btnAddPosterAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_location" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/order_item_style"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="发货网点：" />
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/order_spPosterBranch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:text="收货人信息"
+                android:textColor="@color/actionbar_bg" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:divider="@drawable/ic_divider"
+                app:showDividers="middle|beginning|end">
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="收货人：" />
+
+                    <EditText
+                        android:id="@+id/order_etReceiverName"
+                        style="@style/order_edittext"
+                        android:hint="请输入收货人姓名" />
+
+                    <ImageView
+                        android:id="@+id/order_btnAddReceiver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="3.0dip"
+                        android:src="@mipmap/ic_select" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="手机号：" />
+
+                    <EditText
+                        android:id="@+id/order_etReceiverPhone"
+                        style="@style/order_edittext"
+                        android:hint="请输入收货人手机号"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="收获地区：" />
+
+                    <TextView
+                        android:id="@+id/order_tvReceiverAreaName"
+                        style="@style/order_edittext"
+                        android:hint="请选择收货地区" />
+
+                    <ImageView
+                        android:id="@+id/order_btnAddReceiverArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="3.0dip"
+                        android:src="@mipmap/ic_select" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="详细地址：" />
+
+                    <EditText
+                        android:id="@+id/order_etReceiverAddress"
+                        style="@style/order_edittext"
+                        android:hint="请输入详细地址" />
+                </LinearLayout>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:text="货物信息"
+                android:textColor="@color/actionbar_bg" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:divider="@drawable/ic_divider"
+                app:showDividers="middle|beginning|end">
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="物品名称：" />
+
+                    <EditText
+                        android:id="@+id/order_etCargoName"
+                        style="@style/order_edittext"
+                        android:hint="请输入物品名称" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="报价申明：" />
+
+                    <EditText
+                        android:id="@+id/order_etCargoQuantity"
+                        style="@style/order_edittext"
+                        android:hint="请输入报价申明" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="货物重量：" />
+
+                    <EditText
+                        android:id="@+id/order_etCargoWeight"
+                        style="@style/order_edittext"
+                        android:hint="单位：千克（KG）"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="货物体积：" />
+
+                    <EditText
+                        android:id="@+id/order_etCargoCubage"
+                        style="@style/order_edittext"
+                        android:hint="单位：立方米"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="货物件数：" />
+
+                    <EditText
+                        android:id="@+id/order_etCargoCount"
+                        style="@style/order_edittext"
+                        android:inputType="number"
+                        android:hint="请输入货物件数"
+                        android:maxLength="9" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/order_item_style">
+
+                    <TextView
+                        style="@style/order_textview"
+                        android:text="备注：" />
+
+                    <EditText
+                        android:id="@+id/order_etRemark"
+                        style="@style/order_edittext"
+                        android:minLines="6"
+                        android:hint="请输入备注信息"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

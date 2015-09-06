@@ -1,0 +1,52 @@
+API域名:http://app.appwl.cn/api/
+
+注册:appuser/Register
+接收参数:
+	_n:登录名
+	_p:密码
+	_m:手机号
+返回结果:{"success":true,"message":"","data":1}
+success=false(失败):data=错误代码,message=错误提示
+		    -1:参数错误
+		    -2:登录名已存在
+                   -21:手机号已存在
+	            -4:未知错误
+                    -5:操作异常(追加异常提示)
+success=true(成功):data=用户Id
+
+登录:appuser/Login
+接收参数:
+	_n:登录名
+	_p:密码
+返回结果:{"success":true,"message":"","data":1}
+success=false(失败):data=错误代码,message=错误提示
+	 	    -1:参数错误
+		    -2:登录失败                   
+                    -5:操作异常(追加异常提示)
+success=true(成功):data=用户Id
+
+下单: appOrder/NewOrder
+接收参数:
+	user_id:用户ID
+	f_store:发货网点
+	cargo_name:货物名称
+	cargo_bj:货物保价
+	cargo_weight:货物重量
+	cargo_size:货物体积
+	cargo_num:货物数量
+	f_linkman:发货人
+	f_mobile:发货人手机
+	f_region:发货地区
+	f_address:发货详细地址
+	s_linkman:收货人姓名
+	s_mobile:收货人手机
+	s_region:收货地区
+	s_address:收货详细地址
+	remark:备注
+	p_f_region_id:发货地区Id
+返回结果:{"success":true,"message":"","data":1}
+success=false(失败):data=错误代码,message=错误提示
+	 	    -1:参数错误
+		    -4:未知错误                   
+                    -5:操作异常(追加异常提示)
+success=true(成功):data=订单Id

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:divider="@drawable/ic_divider"
+        app:showDividers="middle|beginning|end">
+
+        <LinearLayout style="@style/order_item_style">
+
+            <TextView
+                style="@style/order_textview"
+                android:id="@+id/order_tvName"
+                android:drawableLeft="@mipmap/form_need"
+                android:text="发货人：" />
+
+            <EditText
+                android:id="@+id/address_etPosterName"
+                android:hint="请输入姓名"
+                style="@style/order_edittext"
+                android:maxLength="15" />
+
+            <ImageView
+                android:id="@+id/address_btnAddPoster"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="3.0dip"
+                android:src="@mipmap/ic_select" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/order_item_style">
+
+            <TextView
+                style="@style/order_textview"
+                android:drawableLeft="@mipmap/form_need"
+                android:text="手机：" />
+
+            <EditText
+                android:id="@+id/address_etPosterPhone"
+                style="@style/order_edittext"
+                android:inputType="number"
+                android:hint="请输入手机号码"
+                android:maxLength="15"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/order_item_style">
+
+            <TextView
+                style="@style/order_textview"
+                android:id="@+id/order_tvAddress"
+                android:drawableLeft="@mipmap/form_need"
+                android:text="发货地区：" />
+
+            <TextView
+                android:id="@+id/address_tvPosterAreaName"
+                style="@style/order_edittext"
+                android:hint="请选择发货地区"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/address_btnAddPosterArea"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="3.0dip"
+                android:src="@mipmap/ic_select" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/order_item_style">
+
+            <TextView
+                style="@style/order_textview"
+                android:drawableLeft="@mipmap/form_need"
+                android:text="详细地址：" />
+
+            <EditText
+                android:id="@+id/address_etPosterAddress"
+                style="@style/order_edittext"
+                android:hint="请填写所在街道及详细地址"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/order_item_style">
+
+            <TextView
+                style="@style/order_textview"
+                android:id="@+id/order_tvBranch"
+                android:drawableLeft="@mipmap/form_need"
+                android:text="发货网点：" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/address_spPosterBranch"
+                android:layout_width="match_parent"
+                android:spinnerMode="dialog"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</LinearLayout>

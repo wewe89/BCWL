@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/baidu_fb_bg"
+    android:tileMode="repeat" >
+
+</bitmap><!-- From: file:/E:/workspace/AndroidStudio/BCWL/umeng_fb/res/drawable-hdpi/baidu_fb_main_bg.xml --><!-- From: file:/E:/workspace/AndroidStudio/BCWL/umeng_fb/build/intermediates/bundles/debug/res/drawable-hdpi/baidu_fb_main_bg.xml -->

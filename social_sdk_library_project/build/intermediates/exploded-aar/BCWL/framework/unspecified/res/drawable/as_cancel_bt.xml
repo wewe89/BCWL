@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1E82FF" />
+    <corners android:radius="5dp" />
+</shape>
+<!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/drawable/as_cancel_bt.xml -->

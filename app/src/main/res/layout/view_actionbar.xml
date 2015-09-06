@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/actionbar_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/actionbar_height"
+        android:layout_height="match_parent"
+        android:id="@+id/navbar_left"
+        android:onClick="onBackClick"
+        android:background="@drawable/bg_actionbar_left"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_action_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navbar_middle"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        tools:text="标题" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/navbar_right"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:minWidth="48dp"
+        android:textSize="@dimen/text_medium"
+        android:minHeight="40dp"
+        android:textColor="@color/white"
+        tools:text="右边"
+        tools:drawableLeft="@mipmap/ic_select"
+        android:background="@null" />
+</RelativeLayout>

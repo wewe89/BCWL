@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@null"
+    android:layout_height="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/listview_footview_loadmore"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/listview_footview_loadmore_pb"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            style="?android:attr/progressBarStyleSmallTitle"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/listview_footview_loadmore_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载更多数据" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/listview_footview_loadfinish"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/listview_footview_loadfinish_text"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="加载完成"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/listview_footview_loadfinish_text"
+            android:layout_alignParentLeft="true"
+            android:background="@color/gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/listview_footview_loadfinish_text"
+            android:layout_alignParentRight="true"
+            android:background="@color/gray" />
+    </RelativeLayout>
+</LinearLayout>

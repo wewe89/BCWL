@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="1.0px"
+            android:id="@+id/waybill_remarker_view"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/divider_line_color" />
+
+        <ImageView
+            android:id="@+id/waybill_remarker_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10.0dip"
+            android:src="@mipmap/waybill_follow_normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/waybill_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            tools:text="2014-8-8 15:33"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/waybill_content"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:layout_weight="1.0"
+                tools:text="运输中，已离开深圳集散中心，前往上海集散中心" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5.0dip"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="展开"
+                    android:textColor="#ff278eff" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/arrow_down" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginTop="5.0dip"
+            android:background="@color/divider_line_color" />
+    </LinearLayout>
+</LinearLayout>

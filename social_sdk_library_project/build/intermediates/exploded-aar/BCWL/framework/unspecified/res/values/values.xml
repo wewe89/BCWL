@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/bools.xml -->
+    <eat-comment/>
+    <item name="api11" type="bool">false</item>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="aliceblue">#f0f8ff</color>
+    <color name="antiquewhite">#faebd7</color>
+    <color name="aqua">#00ffff</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="azure">#f0ffff</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="beige">#f5f5dc</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dialog_colors.xml -->
+    <eat-comment/>
+    <color name="bg_dialog">#eaffffff</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bisque">#ffe4c4</color>
+    <color name="black">#000000</color>
+    <color name="blanchedalmond">#ffebcd</color>
+    <color name="blue">#0000ff</color>
+    <color name="blueviolet">#8a2be2</color>
+    <color name="blur_bg">#FFFAF0</color>
+    <color name="brown">#a52a2a</color>
+    <color name="burlywood">#deb887</color>
+    <color name="cadetblue">#5f9ea0</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="chocolate">#d2691e</color>
+    <color name="coral">#ff7f50</color>
+    <color name="cornflowerblue">#6495ed</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="crimson">#dc143c</color>
+    <color name="cyan">#00ffff</color>
+    <color name="darkblue">#00008b</color>
+    <color name="darkcyan">#008b8b</color>
+    <color name="darkgoldenrod">#b8860b</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#ffcccccc</color>
+    <color name="darkkhaki">#bdb76b</color>
+    <color name="darkmagenta">#8b008b</color>
+    <color name="darkolivegreen">#556b2f</color>
+    <color name="darkorange">#ff8c00</color>
+    <color name="darkorchid">#9932cc</color>
+    <color name="darkred">#8b0000</color>
+    <color name="darksalmon">#e9967a</color>
+    <color name="darkseagreen">#8fbc8f</color>
+    <color name="darkslateblue">#483d8b</color>
+    <color name="darkslategray">#2f4f4f</color>
+    <color name="darkslategrey">#2f4f4f</color>
+    <color name="darkturquoise">#00ced1</color>
+    <color name="darkviolet">#9400d3</color>
+    <color name="deeppink">#ff1493</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="dialog_button_focused">#4Cf3a71e</color>
+    <color name="dialog_button_focused_dark">#4CF8A500</color>
+    <color name="dialog_button_normal">@android:color/transparent</color>
+    <color name="dialog_button_normal_dark">@android:color/transparent</color>
+    <color name="dialog_button_pressed">#99f3a71e</color>
+    <color name="dialog_button_pressed_dark">#99F8A500</color>
+    <color name="dialog_button_separator">#25000000</color>
+    <color name="dialog_button_separator_dark">#12FFFFFF</color>
+    <color name="dialog_button_text">#333333</color>
+    <color name="dialog_button_text_dark">#FFFFFF</color>
+    <color name="dialog_message_text">#333333</color>
+    <color name="dialog_message_text_dark">#FFFFFF</color>
+    <color name="dialog_title_separator">#f3a71e</color>
+    <color name="dialog_title_separator_dark">#F8A500</color>
+    <color name="dialog_title_text">#f3a71e</color>
+    <color name="dialog_title_text_dark">#F8A500</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="empty_layout_backgrounk">#EBEBEB</color>
+    <color name="firebrick">#b22222</color>
+    <color name="floralwhite">#fffaf0</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="fuchsia">#ff00ff</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="ghostwhite">#f8f8ff</color>
+    <color name="gold">#ffd700</color>
+    <color name="goldenrod">#daa520</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="greenyellow">#adff2f</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="honeydew">#f0fff0</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="indianred">#cd5c5c</color>
+    <color name="indigo">#4b0082</color>
+    <color name="ivory">#fffff0</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavenderblush">#fff0f5</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="lemonchiffon">#fffacd</color>
+    <color name="lightblue">#add8e6</color>
+    <color name="lightcoral">#f08080</color>
+    <color name="lightcyan">#e0ffff</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dialog_colors.xml -->
+    <eat-comment/>
+    <color name="lightest_gray">#0a000000</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="lightgreen">#90ee90</color>
+    <color name="lightpink">#ffb6c1</color>
+    <color name="lightsalmon">#ffa07a</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="lightskyblue">#87cefa</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#b0c4de</color>
+    <color name="lightyellow">#ffffe0</color>
+    <color name="lime">#00ff00</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="linen">#faf0e6</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dialog_colors.xml -->
+    <eat-comment/>
+    <color name="list_divider_color">#DADADA</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="magenta">#ff00ff</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66cdaa</color>
+    <color name="mediumblue">#0000cd</color>
+    <color name="mediumorchid">#ba55d3</color>
+    <color name="mediumpurple">#9370db</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="mediumslateblue">#7b68ee</color>
+    <color name="mediumspringgreen">#00fa9a</color>
+    <color name="mediumturquoise">#48d1cc</color>
+    <color name="mediumvioletred">#c71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#f5fffa</color>
+    <color name="mistyrose">#ffe4e1</color>
+    <color name="moccasin">#ffe4b5</color>
+    <color name="navajowhite">#ffdead</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#fdf5e6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6b8e23</color>
+    <color name="orange">#ffa500</color>
+    <color name="orangered">#ff4500</color>
+    <color name="orchid">#da70d6</color>
+    <color name="palegoldenrod">#eee8aa</color>
+    <color name="palegreen">#98fb98</color>
+    <color name="paleturquoise">#afeeee</color>
+    <color name="palevioletred">#db7093</color>
+    <color name="papayawhip">#ffefd5</color>
+    <color name="peachpuff">#ffdab9</color>
+    <color name="peru">#cd853f</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="plum">#dda0dd</color>
+    <color name="powderblue">#b0e0e6</color>
+    <color name="ptr_bg_buttomview">@color/gray</color>
+    <color name="ptr_bg_headview">@color/gray</color>
+    <color name="purple">#800080</color>
+    <color name="red">#ff0000</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="royalblue">#4169e1</color>
+    <color name="saddlebrown">#8b4513</color>
+    <color name="salmon">#fa8072</color>
+    <color name="sandybrown">#f4a460</color>
+    <color name="seaShell">#fff5ee</color>
+    <color name="seagreen">#2e8b57</color>
+    <color name="sienna">#a0522d</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="skyblue">#87ceeb</color>
+    <color name="slateblue">#6a5acd</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#fffafa</color>
+    <color name="springgreen">#00ff7f</color>
+    <color name="steelblue">#4682b4</color>
+    <color name="tan">#d2b48c</color>
+    <color name="teal">#008080</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dialog_colors.xml -->
+    <eat-comment/>
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="thistle">#d8bfd8</color>
+    <color name="tomato">#ff6347</color>
+    <color name="transparent">#00000000</color>
+    <color name="turquoise">#40e0d0</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dialog_colors.xml -->
+    <eat-comment/>
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="violet">#ee82ee</color>
+    <color name="wheat">#f5deb3</color>
+    <color name="white">#ffffff</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="yellow">#ffff00</color>
+    <declare-styleable name="ActionSheet"><attr format="color|reference" name="actionSheetBackground"/><attr format="color|reference" name="cancelButtonBackground"/><attr format="reference" name="itemButtonBackground"/><attr format="color|reference" name="cancelButtonTextColor"/><attr format="color|reference" name="itemButtonTextColor"/><attr format="dimension|reference" name="actionSheetPadding"/><attr format="dimension|reference" name="itemButtonSpacing"/><attr format="dimension|reference" name="cancelButtonMarginTop"/><attr format="dimension|reference" name="actionSheetTextSize"/><attr format="color|reference" name="itemDividerBackground"/><attr format="dimension|reference" name="itemDividerHeight"/></declare-styleable>
+    <declare-styleable name="ActionSheets"><attr format="reference" name="actionSheetStyle"/></declare-styleable>
+    <declare-styleable name="DotView"><attr format="dimension" name="dot_radius"/><attr format="dimension" name="dot_span"/><attr format="integer" name="dot_unselected_color"/><attr format="integer" name="dot_selected_color"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="selectedTabTextColor"/></declare-styleable>
+    <declare-styleable name="PtrFrame"><attr format="reference" name="ptr_header"/><attr format="reference" name="ptr_rotate_view"/><attr format="reference" name="ptr_content"/><attr format="float" name="ptr_resistance"/><attr format="integer" name="ptr_duration_to_close"/><attr format="integer" name="ptr_duration_to_close_header"/><attr format="integer" name="ptr_rotate_ani_time"/><attr format="float" name="ptr_ratio_of_header_to_rotate"/><attr format="float" name="ptr_ratio_of_header_to_refresh"/><attr format="boolean" name="ptr_keep_header_when_refresh"/></declare-styleable>
+    <declare-styleable name="PullToRefreshLayout"><attr format="reference" name="ptr_header_view"/><attr format="reference" name="ptr_contentid"/><attr format="reference" name="ptr_buttom_view"/><attr format="boolean" name="ptr_pull_down"/><attr format="boolean" name="ptr_pull_up"/></declare-styleable>
+    <declare-styleable name="SegmentedTabGroup"><attr format="color" name="stgDividerColor"/><attr format="color" name="stgSelectedTabTextColor"/><attr format="dimension" name="stgDividerWidth"/><attr format="dimension" name="stgRadius"/><attr format="dimension" name="stgTextSize"/></declare-styleable>
+    <declare-styleable name="clear_edit_style"><attr format="integer" name="button_type"/><attr format="reference" name="right_image"/></declare-styleable>
+    <declare-styleable name="slider_listview_style"><attr format="dimension" name="right_width"/></declare-styleable>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="delete_action_len">90dip</dimen>
+    <dimen name="dialog_background_radius">5dip</dimen>
+    <dimen name="global_dialog_padding">16.0dip</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="text_large_primary_size">16.0dip</dimen>
+    <dimen name="text_large_secondary_size">12.0dip</dimen>
+    <dimen name="text_regular_primary_size">14.0dip</dimen>
+    <dimen name="text_size_16">16.0dip</dimen>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="BG_VIEW_ID" type="id">false</item>
+    <item name="CANCEL_BUTTON_ID" type="id">false</item>
+    <item name="del_layout" type="id">false</item>
+    <item name="tv_unread_count" type="id">false</item>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="empty_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用的网络</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="ptr_load_fail">加载失败</string>
+    <string name="ptr_load_succeed">加载成功</string>
+    <string name="ptr_loading">正在加载...</string>
+    <string name="ptr_pull_to_refresh">下拉刷新</string>
+    <string name="ptr_pullup_to_load">上拉加载更多</string>
+    <string name="ptr_refresh_fail">刷新失败</string>
+    <string name="ptr_refresh_succeed">刷新成功</string>
+    <string name="ptr_refreshing">正在刷新...</string>
+    <string name="ptr_release_to_load">释放立即加载</string>
+    <string name="ptr_release_to_refresh">释放立即刷新</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">载入中</string>
+    <string name="pull_to_refresh_release_label">放开以刷新</string>
+    <string name="pull_to_refresh_tap_label">点击这里刷新</string>
+    <string name="tip_network_error">没有可用的网络</string>
+    <string name="video_cancle">取消</string>
+    <string name="video_ok">确定</string>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/as_theme.xml -->
+    <eat-comment/>
+    <style name="ActionSheetStyle">
+        <item name="actionSheetBackground">@null</item>
+        <item name="cancelButtonBackground">@drawable/as_cancel_bt</item>
+        <item name="itemButtonBackground">@drawable/as_item_bg</item>
+        <item name="cancelButtonTextColor">@color/white</item>
+        <item name="itemButtonTextColor">@color/black</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="itemButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+        <item name="itemDividerBackground">@color/gray</item>
+        <item name="itemDividerHeight">1px</item>
+    </style>
+    <!-- From: file:/E:/workspace/AndroidStudio/BCWL/framework/res/values/dialog_style.xml -->
+    <eat-comment/>
+    <style name="dialog_button">
+        <item name="android:textSize">@dimen/text_regular_primary_size</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/touch_clear_bg</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">46.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="dialog_common" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+    <style name="dialog_divider">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/lightgray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="dialog_pinterest_text" parent="@style/text_multiline">
+        <item name="android:textSize">@dimen/text_regular_primary_size</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="dialog_subtitle" parent="@style/fullline_view">
+        <item name="android:textSize">@dimen/text_large_secondary_size</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="dialog_text">
+        <item name="android:textSize">@dimen/text_large_secondary_size</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/global_dialog_padding</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+    <style name="dialog_title" parent="@style/fullline_view">
+        <item name="android:textSize">@dimen/text_large_primary_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="dialog_waiting" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+    <style name="fullline_view">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="list_cell_divider">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="list_cell_text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="list_cell_text_dialog" parent="@style/list_cell_text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/ui_dialog_list_text</item>
+    </style>
+    <style name="section_item_divider">
+        <item name="android:background">@color/ui_dialog_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="section_item_divider_vertical">
+        <item name="android:background">@color/ui_dialog_divider</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="text_base" parent="@style/wrap_view">
+        <item name="android:textSize">@dimen/text_regular_primary_size</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="text_multiline" parent="@style/text_base">
+        <item name="android:maxLines">5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+    <style name="wrap_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

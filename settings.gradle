@@ -1,0 +1,1 @@
+include ':app', ':framework', ':social_sdk_library_project', ":ChatDemoUI"

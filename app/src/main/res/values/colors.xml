@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="style_color_primary">#4D8FE6</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+
+    <color name="actionbar_bg">@color/style_color_primary</color>
+
+    <color name="windows_background">@color/empty_layout_backgrounk</color>
+
+    <color name="item_selected">#D9D9D9</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="border_color">#ffb5b7b8</color>
+    <color name="divider_line_color">#ffc2c4c4</color>
+</resources>

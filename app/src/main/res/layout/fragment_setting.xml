@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/view_actionbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/setting_user_phone_layout"
+                style="@style/setting_linear"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_set_acount" />
+
+                <TextView
+                    android:id="@+id/setting_user_phone"
+                    style="@style/setting_linear_middle"
+                    android:text="-" />
+
+            </LinearLayout>
+
+            <ImageView style="@style/setting_divider"
+                android:id="@+id/setting_modifypwd_divider"/>
+
+            <LinearLayout
+                android:id="@+id/setting_modifypwd"
+                style="@style/setting_linear">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_password" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="修改密码" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+            <ImageView style="@style/setting_divider" />
+
+            <LinearLayout
+                android:id="@+id/setting_address_rec"
+                style="@style/setting_linear">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_set_receive" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="收获地址" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+
+            <ImageView style="@style/setting_divider" />
+
+            <LinearLayout
+                android:id="@+id/setting_address_del"
+                style="@style/setting_linear">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_set_post" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="发货地址" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/setting_share"
+                style="@style/setting_linear"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_set_share" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="分享余氏" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+
+            <ImageView style="@style/setting_divider" />
+
+            <LinearLayout style="@style/setting_linear">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_set_jcgx" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="检查更新" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+
+            <ImageView style="@style/setting_divider" />
+
+            <LinearLayout
+                android:id="@+id/set_feedback"
+                style="@style/setting_linear">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_feedback" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="意见反馈" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+
+            <ImageView style="@style/setting_divider" />
+
+            <LinearLayout
+                android:id="@+id/setting_about"
+                style="@style/setting_linear">
+
+                <ImageView
+                    style="@style/setting_linear_left"
+                    android:src="@mipmap/ic_set_gywo" />
+
+                <TextView
+                    style="@style/setting_linear_middle"
+                    android:text="关于我们" />
+
+                <ImageView style="@style/setting_linear_right" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/setting_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="16dp"
+                android:background="@mipmap/ic_set_logout"
+                android:text="退出登陆"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

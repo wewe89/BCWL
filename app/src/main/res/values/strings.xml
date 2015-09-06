@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">余氏东风</string>
+
+    <string name="tab_rg_recommend">首页</string>
+    <string name="tab_rg_investment">消息</string>
+    <string name="tab_rg_financing">我的运单</string>
+    <string name="tab_rg_wo">设置</string>
+
+    <string name="scan_text">将条形码放入框内, 即可自动扫描</string>
+    <string name="share_txt">让工作变得更快捷、更容易、更高效。我们会秉持“创新沟通，创造价值，共享未来”的核心价值观，与您一起学习、共同成长!</string>
+
+    <string name="demand"><![CDATA[陆路运输违法禁寄物品<br>
+    （1）各种烈性毒药、麻醉药品以及精神物品。例如，砒霜、毒品、鸦片、吗啡、可卡因等物品。<br>
+    （2）国家法令禁止流通或者寄运的物品。例如，文物、武器、弹药等物品。<br>
+    （3）内容涉及反动，淫秽，有伤大雅的或者法轮功等不利于大众传播的报刊、书籍、图片、宣传品等。<br>
+    （4）妨碍公共卫生的，如尸骨（包括已经焚烧的尸骨）、未经硝制的兽皮、未经药制的兽骨等。<br>
+    （5）动植物以及其标本。<br>
+    （6）具有放射性的各种危险品，雷管，火药，炸药等。]]>
+    </string>
+    <string name="info"><![CDATA[余式速运移动客户端是顺丰速运基于Android操作系统开发的个人快件管理软件，向客户提供自助下单、查件、订单管理、服务点查询、运费查询等一站式掌上便捷快件服务。]]>
+    </string>
+</resources>

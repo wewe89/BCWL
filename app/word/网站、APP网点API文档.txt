@@ -1,0 +1,11 @@
+1、获取城市
+http://wlif.360cnc.com/api/city
+2、根据城市ID获取区县
+http://wlif.360cnc.com/api/city?city_id=2
+3、网上下单页面，根据区县ID获取简单网点信息，页面的显示使用station_full_name列，下单保存使用text列
+http://wlif.360cnc.com/api/region?county_id=2
+4、地图显示、网点列表页面，根据城市ID、区县ID获取详细网点信息
+http://wlif.360cnc.com/api/region?method=city&id=2
+http://wlif.360cnc.com/api/region?method=county&id=2
+参数说明:
+method:city 根据城市ID获取   county 根据区县ID获取

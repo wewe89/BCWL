@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/register_username"
+            style="@style/FromLinearEdittext"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@mipmap/login_phone_ico_user"
+            android:hint="请输入用户名"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/register_mobile"
+            style="@style/FromLinearEdittext"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@mipmap/ic_phone"
+            android:hint="请输入手机号"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+
+        <EditText
+            android:id="@+id/register_pwd"
+            style="@style/FromLinearEdittext"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@mipmap/ic_password"
+            android:hint="长度6-20，区分大小写"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/register_repwd"
+            style="@style/FromLinearEdittext"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@mipmap/ic_password"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <Button
+            style="@style/ButtonCommonStyle"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:onClick="doRegister"
+            android:text="注册" />
+    </LinearLayout>
+
+</LinearLayout>

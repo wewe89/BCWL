@@ -1,0 +1,52 @@
+API域名:http://app.appwl.cn/api/appAddress
+
+查询:QueryAddress
+接收参数:
+	_r:联系人
+	_m:手机号
+	_a:地址(支持地区)
+	_f:(0:发货人地址 1:收货人地址)
+	_u:当前登录用户Id
+	_cp:当前页
+	_ps:页显示大小
+返回结果:{"totle":0,"rows":[]}  total:总数据条数,rows:当前满足条件数据
+rows字段说明:
+address_id:Id
+linkman:联系人
+mobile:手机号
+region:地区
+address:详细地址
+type:0:发货人地址 1:收货人地址
+user_id::当前登录用户Id
+stroe:网点
+region_id:地区Id
+
+新增/编辑:PostAddress
+接收参数:
+	* address_id:Id(新增=0,编辑=地址Id)
+	* linkman:联系人 
+	* mobile:手机号  
+	* region:地区
+	* address:详细地址
+	* type:0:发货人地址 1:收货人地址
+	* user_id::当前登录用户Id
+	* stroe:网点
+	* region_id:地区Id
+返回结果:{"success":true,"message":"","data":1}
+success=false(失败):data=错误代码,message=错误提示		     
+		    -1:参数错误
+		    -2:已存在相同地址信息		   
+	            -4:未知错误
+                    -5:操作异常(追加异常提示)
+success=true(成功):data=(新增=新地址Id,编辑=影响行数)>0
+
+删除:DelAddress
+接收参数:
+	_id:地址Id
+返回结果:{"success":true,"message":"","data":1}
+success=false(失败):data=错误代码,message=错误提示
+		     0:数据或已被删除(可作删除成功处理)
+		    -1:参数错误		   
+	            -4:未知错误
+                    -5:操作异常(追加异常提示)
+success=true(成功):data=影响行数
